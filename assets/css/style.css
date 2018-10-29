@@ -1,0 +1,65 @@
+.dateBox {
+    border: 1px solid gray;
+    font-size: 24px;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 5px;
+    margin: 0px;
+    width: 50px;
+}
+
+#resultStatsBox {
+    display: none;
+    margin-top: 10px;
+}
+
+#resultStats, #resultStatsBox {
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+#myResults {
+    margin-top: 10px;
+}
+
+.dateBoxDivider {
+    height: 3px;
+    width: 100%;
+    background: yellow;
+    margin: 5px;
+}
+
+.tooltipMarker {
+    display:inline-block;
+    border-bottom:1px dotted blue;
+    margin-bottom:-1px;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: #efefef;
+    text-align: center;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
