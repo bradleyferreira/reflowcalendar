@@ -35,35 +35,35 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon1">Start Date</span>
                 </div>
-                <input type="date" name="fromdate" class="form-control" id="fromdate" value="2018-10-20"
+                <input type="date" name="fromdate" class="form-control" id="fromdate" value="2018-11-02"
                        aria-describedby="basic-addon1">
             </div>
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon2">End Date</span>
                 </div>
-                <input type="date" name="todate" class="form-control" id="todate" value="2018-11-09"
+                <input type="date" name="todate" class="form-control" id="todate" value="2018-11-19"
                        aria-describedby="basic-addon2"></div>
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon3" data-toggle="tooltip" data-placement="top"
                           title="eg. 150px or 5%"><span class="tooltipMarker">Box Width</span></span>
                 </div>
-                <input class="form-control" type="text" id="boxWidth" value="4%" aria-describedby="basic-addon3"></div>
+                <input class="form-control" type="text" id="boxWidth" value="5%" aria-describedby="basic-addon3"></div>
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon4" data-toggle="tooltip" data-placement="top"
                           title="Hint: Try smaller font sizes if you experience uneven box layouts"><span
                                 class="tooltipMarker">Font Size</span>
                 </div>
-                <input class="form-control" type="text" id="boxFontSize" value="18px" aria-describedby="basic-addon4">
+                <input class="form-control" type="text" id="boxFontSize" value="18" aria-describedby="basic-addon4">
             </div>
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon5" data-toggle="tooltip" data-placement="top"
-                          title="The amount of blank space left for notes. eg. 50px"><span class="tooltipMarker">Scratch Height</span>
+                          title="The amount of blank space left for notes. eg. 50"><span class="tooltipMarker">Scratch Height</span>
                 </div>
-                <input class="form-control" type="text" id="scratchHeight" value="40px" aria-describedby="basic-addon5">
+                <input class="form-control" type="text" id="scratchHeight" value="40" aria-describedby="basic-addon5">
                 <div class="input-group-append">
                     <button class="btn btn-secondary" type="button" id="button-addon2" onclick="toggleScratch();">
                         On/Off
